@@ -1,0 +1,12 @@
+package com.example.demo.runners;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class CmdRunner {
+
+	public CmdRunner() {
+		System.out.println("CmdRunner::Constructor");
+	}
+
+}

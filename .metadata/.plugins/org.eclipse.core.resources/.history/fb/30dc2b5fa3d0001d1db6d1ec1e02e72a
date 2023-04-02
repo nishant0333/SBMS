@@ -1,0 +1,15 @@
+package com.example.entity;
+
+import javax.persistence.EmbeddedId;
+
+public class Account {
+
+	
+	private String holderName;
+	private String branch;
+	
+	
+	@EmbeddedId
+	private AccountPk accountPk;
+	
+}
